@@ -10,9 +10,11 @@
 
 		<% _.each( posts, function( post ){ %>
 
-			<div class="content-item has-ripple-feedback">
+			<div id="post-feedback" class="content-item has-ripple-feedback">
 
                 <a href="<%= TemplateTags.getPostLink(post.id) %>">
+					
+					<span id="date-post">hace <span class="post-publish-date"><%= getCustomDate(post.date) %></span></span>
 
                     <% if ( post.subhead ) { %>
 

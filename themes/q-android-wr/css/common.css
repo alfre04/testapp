@@ -354,6 +354,18 @@ a {
     background-color: #F2F2F2;
 }
 
+#app-header h1{
+	background-image: url(../img/logo.svg);
+    height: 60px;
+    width: 60px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 45px auto;
+    color: transparent !important;
+    margin: 0 auto;
+    background-position: center;
+}
+
 /*FOOTER*/
 #app-footer{
 	position: absolute;

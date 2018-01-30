@@ -218,7 +218,7 @@ a {
     color: #fff;
 }
 
-.app-header h1, .panel-header h1 {
+/*.app-header h1, .panel-header h1 {
 	margin: 0px;
 	padding: 0px 0px 20px 56px;
 	text-align: left;
@@ -226,10 +226,10 @@ a {
 	overflow: hidden;
 	height: 56px;
 	font-weight: 400;
-	-webkit-user-select: none; /* Block selection with a long touch */
+	-webkit-user-select: none;
 	font-size: 18px;
 	font-family: "Roboto",sans-serif;
-}
+}*/
 
 
 
@@ -297,7 +297,7 @@ a {
 	width: 100%;
     z-index: 0; /* z-index relative to #slideup panel */
     -webkit-overflow-scrolling:touch; /* Enables inertial scrolling */
-	margin-bottom: 50px;
+	margin-bottom: 15px;
 }
 
 /*
@@ -354,7 +354,8 @@ a {
     background-color: #F2F2F2;
 }
 
-#app-header h1{
+#app-header h1,
+#panel-header h1{
 	background-image: url(../img/logo.svg);
     height: 60px;
     width: 60px;

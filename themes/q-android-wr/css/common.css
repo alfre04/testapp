@@ -384,6 +384,10 @@ a {
 	width: 50%;
 }
 
+#post-feedback{
+	overflow: visible !important;
+}
+
 /*CONTACTO*/
 input,
 textarea{

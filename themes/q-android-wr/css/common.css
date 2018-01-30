@@ -101,6 +101,7 @@ a {
 	width: 100%;
     background-color: #fff;
     -webkit-overflow-scrolling:touch; /* Enables inertial scrolling */
+	margin-bottom: 50px;
 }
 
 /* When in slideup panel, no need to reserve place for app bar */
@@ -379,6 +380,33 @@ textarea{
 	width:300px;
 	border:none;
 	border-bottom:1px solid #757575;
+}
+
+/*ICON*/
+#home-footer-button{
+	top: 0px;
+    left: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/home-icon.svg);
+    background-size: 40px 40px;
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+#pdf-footer-button{
+	top: 0px;
+    left: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/pdf-icon.svg);
+    background-size: 50px 50px;
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
 }
 
 

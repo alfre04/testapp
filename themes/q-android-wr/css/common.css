@@ -296,9 +296,8 @@ a {
 	width: 100%;
     z-index: 0; /* z-index relative to #slideup panel */
     -webkit-overflow-scrolling:touch; /* Enables inertial scrolling */
+	margin-bottom: 50px;
 }
-
-
 
 /*
  * Off-canvas menu
@@ -352,6 +351,34 @@ a {
 
 #app-menu .ripple-drop {
     background-color: #F2F2F2;
+}
+
+/*FOOTER*/
+#app-footer{
+	position: absolute;
+	bottom: 0;
+	background: #221a17;
+	width: 100%;
+	z-index: 100;
+	color: #fff;
+	left: 0;
+}
+
+.left-footer,
+.right-footer{
+	float: left;
+	width: 50%;
+}
+
+/*CONTACTO*/
+input,
+textarea{
+	font-size:18px;
+	padding:10px 10px 10px 5px;
+	display:block;
+	width:300px;
+	border:none;
+	border-bottom:1px solid #757575;
 }
 
 

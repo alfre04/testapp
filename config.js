@@ -6,7 +6,7 @@ define( function ( require ) {
 		app_slug : 'android',
 		wp_ws_url : 'http://warroom2018.com/wp-appkit-api/android',
 		wp_url : 'http://warroom2018.com',
-		theme : 'q-android',
+		theme : 'q-android-wr',
 		version : '1.0',
 		app_title : 'WR2018',
 		app_platform : 'android',

@@ -30,7 +30,7 @@
 	margin: 19px 0px 17px 0px;
 	font-size: 18px;
     line-height: 24px;
-	font-family:'Roboto Bold',sans-serif;
+	
 }
 
 
@@ -40,7 +40,6 @@
  */
 
 .single-content p {
-    font-family: 'PT Serif Regular', Georgia, serif;
     color: #4c4c4c;
 	font-size: 17px;
 	line-height: 27px;
@@ -102,7 +101,6 @@
  */
 
 .single-content ul, .single-content ol {
-    font-family: 'PT Serif Regular', Georgia, serif;
 	font-size: 17px;
 	line-height: 27px;
 	margin: -5px 0px 20px 0px;
@@ -131,7 +129,6 @@
 	font-size: 17px;
 	line-height: 27px;
 	text-align: left;
-    font-family: 'PT Serif Regular', Georgia, serif;
     color: #4c4c4c;
 	font-size: 17px;
 	line-height: 27px;
@@ -213,13 +210,12 @@
 	padding: 10px 20px 0px 20px;
 }
 
-.single-template .post-title span{
+.single-template .post-title .pleca{
     height: 2px;
     width: 50%;
     margin: 0 auto;
-    background: #b64e4a;
-    display: table-column;
     margin-top: 10px;
+    border: 1px solid #b64e4a;
 }
 
 .single-template .post-thumbnail {
@@ -252,7 +248,6 @@
     text-transform: uppercase;
     line-height: 13px;
     margin-bottom: 9px;
-    font-family:'Roboto Bold',sans-serif;
 }
 
 
@@ -267,7 +262,6 @@
     border-radius: 4px;
     padding: 5px 10px 5px 10px;
     background-color: #fcfcfc;
-    font-family: 'PT Serif Regular', Georgia, serif;
     color: #4c4c4c;
 	font-size: 17px;
 	line-height: 27px;

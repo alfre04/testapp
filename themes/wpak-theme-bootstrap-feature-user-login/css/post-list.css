@@ -36,11 +36,11 @@
 	margin: 0;
     font-size: 22px;
     color: #fff;
-    font-family: 'Roboto Bold',sans-serif;
     position: absolute;
     bottom: 0;
     background: rgba(0,0,0,0.2);
     width: 100%;
+    line-height: 22px;
 }
 
 .list-template h2 span{
@@ -78,7 +78,6 @@
     padding: 11px 14px 11px 14px;
     margin: 20px 0px 20px 0px;
     line-height: 24px;
-    font-family:HelveticaNeue-Bold,sans-serif;
 }
 
 .get-more-button .ripple-drop {

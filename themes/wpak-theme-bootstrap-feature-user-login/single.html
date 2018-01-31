@@ -1,27 +1,16 @@
-<!--
- * Content is enclosed in <div id="app-content-wrapper"><div id="app-screen"></div></div>
- * Subhead: is added by add-custom-data.php in the theme's php folder / It expects that the post has a subhead custom field
- * Thumbnail caption: is added by add-custom-data.php in the theme's php folder
- * Custom post date: getCustomDate() added in functions.js as a template's parameter
- * Handler for image loading error: displayDefaultImage() added in functions.js as a template's parameter
- -->
-
 <div id="content" class="content single-template">
-
     <% if(  post.thumbnail && post.thumbnail.src && post.thumbnail.src.length ){ %>
-
         <img class="post-thumbnail" src="<%= post.thumbnail.src %>" onerror="displayDefaultImage(this);" />
         
         <% if (post.thumbnail.caption) { %>
             <div class="post-thumbnail-caption"><%= post.thumbnail.caption %></div>
         <% } %>
-
-    <% } %>	
+        
+    <% } %>
     
     <div class="post-title">
-
         <div class="post-meta">
-            hace<span class="post-publish-date"><%= getCustomDate(post.date) %></span>
+            <span class="post-publish-date"><%= TemplateTags.formatDate(post.date,'d/m/Y') %></span>
         </div>
         
         <% if ( post.subhead ) { %>
@@ -34,13 +23,14 @@
             <%= post.title %>
             <span class="pleca"></span>
         </h1>
-
-    </div>
-            
-    <div id="single-content" class="single-content">
-
-        <%= post.content %>
-
     </div>
     
+    
+    <!--<% if( post.nb_comments > 0 ){ %>
+            - <a class="comments" data-post-id="<%= post.id %>" href="#"><% print(post.nb_comments) %>&nbsp;comment<% post.nb_comments > 1 ? print('s') : '' %></a>
+    <% } %>
+    - <a class="comments" data-post-id="<%= post.id %>" href="#">Comment this post</a>-->
+    <div id="single-content" class="single-content">
+        <%= post.content %>
+    </div>
 </div>

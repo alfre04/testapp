@@ -1,0 +1,56 @@
+<div id="content" class="content list-template">
+    
+	
+	<% if(posts.length){ %>
+		
+		<% _.each( posts, function( post ){ %>
+			
+				<div id="post-feedback" class="content-item has-ripple-feedback">
+					
+					<a href="<%= TemplateTags.getPostLink(post.id) %>">
+					
+						<span id="date-post">&nbsp;<span class="post-publish-date"><%= TemplateTags.formatDate(post.date,'d/m/Y') %></span></span>
+						
+						<h2><span><%= post.title %></span></h2>
+						
+						<% if( post.thumbnail.src && post.thumbnail.src.length ){ %>
+							<img class="content-thumbnail" src="<%= post.thumbnail.src %>" onerror="displayDefaultImage(this);" />
+						<% } %>
+													
+						<!--<div class="media-body">
+							
+							<% if( post.nb_comments > 0 ){ %>
+								<span class="comments"><%= post.nb_comments %> comment<% post.nb_comments > 1 ? print('s') : '' %></span><br/>
+							<% } %>
+							<p><%= post.excerpt %></p>
+						</div>-->
+						
+					</a>
+				</div>
+		
+		<% }); %>
+		
+		<% if( TemplateTags.displayGetMoreLink() ){ %>
+			<button type="button" class="get-more btn btn-default">Get more posts (<%= TemplateTags.getMoreLinkNbLeft() %> left)</button>
+		<% } %>
+		
+	<% }else{ %>
+		<p>No post found!</p>
+	<% } %>
+	
+	<div id="app-footer" class="app-footer has-ripple-feedback ripple-small">
+		<div class="footer-content">
+			<a href="#component-analitica" id="home-footer-button1"></a>
+		</div>
+		<div class="footer-content">
+			<a href="#component-humor-social" id="home-footer-button2"></a>
+		</div>
+		<div class="footer-content">
+			<a href="#component-inteligencia" id="home-footer-button3"></a>
+		</div>
+		<div class="footer-content">
+			<a href="#component-vinculacion" id="home-footer-button4"></a>
+		</div>
+	</div>
+	
+</div>

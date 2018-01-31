@@ -114,12 +114,15 @@
 	.st108{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
 	.st109{font-family:'Montserrat-Bold';}
 	.st110{font-size:12.2296px;}
-	.st111{font-family:'Montserrat-Medium';}
-	.st112{font-family:'Montserrat-Regular';}
+	.st111{fill:#FFFFFF;stroke:#FFFFFF;}
+	.st112{fill:#FFFFFF;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st113{font-family:'Montserrat-Medium';}
+	.st114{stroke:#0F0F0F;}
+	.st115{font-family:'Montserrat-Regular';}
 </style>
 <g>
 	<g>
-		<text transform="matrix(1 0 0 1 -1047.3928 664.2756)"><tspan x="0" y="0" class="st111" style="font-size:43.8034px;"> </tspan><tspan x="-87.9" y="33.2" class="st112" style="font-size:30.92px;">WAR ROOM</tspan></text>
+		<text transform="matrix(1 0 0 1 -1047.3928 664.2756)"><tspan x="0" y="0" class="st113" style="font-size:43.8034px;"> </tspan><tspan x="-87.9" y="33.2" class="st115" style="font-size:30.92px;">WAR ROOM</tspan></text>
 		<circle class="st0" cx="-1040.4" cy="541.7" r="74"/>
 		<g>
 			<g>
@@ -151,8 +154,8 @@
 				</g>
 			</g>
 		</g>
-		<text transform="matrix(1 0 0 1 -1135.6155 720.0031)"><tspan x="0" y="0" class="st1 st112" style="font-size:20.6134px;">Elecciones </tspan><tspan x="138.6" y="0" class="st112" style="font-size:20.6134px;">2018</tspan></text>
-		<text transform="matrix(1 0 0 1 -1099.1926 659.1379)"><tspan x="0" y="0" class="st111" style="font-size:43.8034px;">WR</tspan><tspan x="81.2" y="0" class="st1 st111" style="font-size:43.8034px;">18</tspan><tspan x="125.6" y="0" class="st112" style="font-size:43.8034px;"> </tspan></text>
+		<text transform="matrix(1 0 0 1 -1135.6155 720.0031)"><tspan x="0" y="0" class="st1 st115" style="font-size:20.6134px;">Elecciones </tspan><tspan x="138.6" y="0" class="st115" style="font-size:20.6134px;">2018</tspan></text>
+		<text transform="matrix(1 0 0 1 -1099.1926 659.1379)"><tspan x="0" y="0" class="st113" style="font-size:43.8034px;">WR</tspan><tspan x="81.2" y="0" class="st1 st113" style="font-size:43.8034px;">18</tspan><tspan x="125.6" y="0" class="st115" style="font-size:43.8034px;"> </tspan></text>
 	</g>
 	<g>
 		<path class="st2" d="M-963,624c3,0,5.5,2.5,5.5,5.5c0,3-2.5,5.5-5.5,5.5c-3,0-5.4-2.5-5.4-5.5C-968.5,626.5-966,624-963,624z"/>
@@ -748,7 +751,7 @@
 	</g>
 </g>
 <g>
-	<text transform="matrix(1 0 0 1 -170.4674 181.7011)"><tspan x="0" y="0" class="st111 st110"> </tspan><tspan x="-24.5" y="9.3" class="st112" style="font-size:8.6327px;">WAR ROOM</tspan></text>
+	<text transform="matrix(1 0 0 1 -170.4674 181.7011)"><tspan x="0" y="0" class="st113 st110"> </tspan><tspan x="-24.5" y="9.3" class="st115" style="font-size:8.6327px;">WAR ROOM</tspan></text>
 	<circle class="st71" cx="-168.5" cy="147.5" r="20.7"/>
 	<g>
 		<g>
@@ -778,8 +781,8 @@
 			</g>
 		</g>
 	</g>
-	<text transform="matrix(1 0 0 1 -195.0982 197.2588)"><tspan x="0" y="0" class="st1 st112" style="font-size:5.7551px;">Elecciones </tspan><tspan x="38.7" y="0" class="st112" style="font-size:5.7551px;">2018</tspan></text>
-	<text transform="matrix(1 0 0 1 -184.9293 180.2675)"><tspan x="0" y="0" class="st111 st110">WR</tspan><tspan x="22.7" y="0" class="st1 st111 st110">18</tspan><tspan x="35.1" y="0" class="st112 st110"> </tspan></text>
+	<text transform="matrix(1 0 0 1 -195.0982 197.2588)"><tspan x="0" y="0" class="st1 st115" style="font-size:5.7551px;">Elecciones </tspan><tspan x="38.7" y="0" class="st115" style="font-size:5.7551px;">2018</tspan></text>
+	<text transform="matrix(1 0 0 1 -184.9293 180.2675)"><tspan x="0" y="0" class="st113 st110">WR</tspan><tspan x="22.7" y="0" class="st1 st113 st110">18</tspan><tspan x="35.1" y="0" class="st115 st110"> </tspan></text>
 </g>
 <g>
 	<text transform="matrix(0.9909 0 0 1 -408.3398 789.0812)" class="st1" style="font-family:'Adelle-Bold'; font-size:15px;">APP</text>
@@ -1848,6 +1851,6 @@
 			</g>
 		</g>
 	</g>
-	<text transform="matrix(1 0 0 1 15.602 55.2676)"><tspan x="0" y="0" class="st109 st110">WR</tspan><tspan x="22.1" y="0" class="st69 st111 st110">8</tspan><tspan x="30" y="0" class="st112 st110"> </tspan></text>
+	<text transform="matrix(1 0 0 1 11.8295 55.2676)"><tspan x="0" y="0" class="st109 st110">WR</tspan><tspan x="22.1" y="0" class="st111 st109 st110">1</tspan><tspan x="29.7" y="0" class="st112 st113 st110">8</tspan><tspan x="37.5" y="0" class="st114 st115 st110"> </tspan></text>
 </g>
 </svg>

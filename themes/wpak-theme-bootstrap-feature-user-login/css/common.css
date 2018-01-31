@@ -11,8 +11,13 @@
  */
 
 @font-face {
-	font-family : "PT Serif Regular";
-	src : url('../fonts/PT-Serif-Regular.ttf');
+	font-family : "Adelle Light";
+	src : url('../fonts/Adelle-Light-webfont.ttf');
+}
+
+@font-face {
+	font-family : "Adelle Bold";
+	src : url('../fonts/Adelle-Bold-webfont.ttf');
 }
 
 
@@ -32,13 +37,17 @@ body {
 	text-rendering: optimizelegibility;     /* Enables kerning and optional ligatures */
 	-webkit-text-size-adjust: 100%;         /* Blocks text auto-scaling (eg. when switching from portrait to landscape) */
 	-webkit-font-smoothing: antialiased;    /* Enhances font aliasing */
-	font-family: "Roboto",sans-serif;
+	font-family : "Adelle Light";
 }
 
 a {
     -webkit-tap-highlight-color: rgba(0,0,0,0); /* Disables touch highlight on hyperlinks */
 }
 
+h1,h2,h3,h4,h5,
+h1 span,h2 span,h3 span,h4 span,h5 span{
+	font-family : "Adelle Bold";
+}
 
 
 /*
@@ -92,6 +101,10 @@ a {
 }
 
 /* Encloses content (auto-added) */
+#slideup-panel-0 .app-screen{
+	margin-bottom: 0;
+}
+
 .app-screen {
     overflow-y: scroll;
     position: absolute;
@@ -139,14 +152,15 @@ a {
 
 .back-button {
 	position: absolute;
-	float: left;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-image:url('../img/back-icon.svg');
+    float: right;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/back-icon.svg);
     background-size: 24px 24px;
-	width:48px;
-	height:48px;
+    width: 48px;
+    height: 48px;
     margin: 4px 0px 4px 0px;
+    right: 5px;
 }
 
 
@@ -254,7 +268,7 @@ a {
     z-index: 500;
     background-color: #333;
     color: #f9f9f9;
-    font-family: "Roboto Medium",sans-serif;
+    font-family : "Adelle Light";
     margin: 0 auto;
     right: 0;
     border-radius: 40px 40px 40px 40px;
@@ -327,7 +341,7 @@ a {
 	text-decoration: none;
 	-webkit-user-select: none; /* Block user selection */
 	-webkit-touch-callout: none; /* Work on iOS to block hyperlink menu */
-    font-family: 'Roboto Medium', sans-serif;
+    font-family : "Adelle Light";
     color: rgba(0,0,0,.87);
     font-size: 14px;
     height: 48px;
@@ -342,7 +356,7 @@ a {
 	text-decoration: none;
 	-webkit-user-select: none; /* Block user selection */
 	-webkit-touch-callout: none; /* Work on iOS to block hyperlink menu */
-    font-family: 'Roboto Medium', sans-serif;
+    font-family : "Adelle Light";
     color: #424242;
     font-size: 14px;
     height: 48px;
@@ -369,24 +383,78 @@ a {
 
 /*FOOTER*/
 #app-footer{
-	position: absolute;
-	bottom: 0;
-	background: #221a17;
-	width: 100%;
-	z-index: 100;
-	color: #fff;
-	left: 0;
-}
-
-.left-footer,
-.right-footer{
-	float: left;
-	width: 50%;
+	position: fixed;
+    bottom: 0;
+    background: #fff;
+    width: 100%;
+    z-index: 100;
+    color: #fff;
+    left: 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.26);
 }
 
 #post-feedback{
 	overflow: visible !important;
 }
+
+.footer-content{
+	float: left;
+	width: 25%;
+}
+
+.footer-content #home-footer-button1{
+	top: 0px;
+    left: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/icon.svg);
+    background-size: 40px 40px;
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+.footer-content #home-footer-button2{
+	top: 0px;
+    left: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/icon-2.png);
+    background-size: 40px 40px;
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+.footer-content #home-footer-button3{
+	top: 0px;
+    left: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/icon-3.svg);
+    background-size: 40px 40px;
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+.footer-content #home-footer-button4{
+	top: 0px;
+    left: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/icon-4.svg);
+    background-size: 40px 40px;
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+
 
 /*CONTACTO*/
 input,

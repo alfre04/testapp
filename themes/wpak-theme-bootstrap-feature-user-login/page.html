@@ -1,0 +1,56 @@
+<%
+	//Use the global "post" to get the current page object (containing page title, page content ...).
+
+	var parent = TemplateTags.getPageParent();
+	var next_page = TemplateTags.getNextPage();
+	var previous_page = TemplateTags.getPreviousPage();
+	var siblings = TemplateTags.getPageSiblings();
+	var sub_pages = TemplateTags.getPageChildren();
+	var page_depth = TemplateTags.getPageDepth();
+	var ariane = TemplateTags.getPageBreadcrumb();
+%>
+
+<div id="content" class="content single-template">
+	 <div class="post-title">
+
+        <% if ( post.subhead ) { %>
+
+            <div class="subhead"><%= post.subhead %></div>
+
+        <% } %>
+        
+        <h1>
+            <%= post.title %>
+        </h1>
+
+    </div>
+	 
+	<% if(  post.thumbnail && post.thumbnail.src && post.thumbnail.src.length ){ %>
+
+	 <img class="post-thumbnail" src="<%= post.thumbnail.src %>" onerror="displayDefaultImage(this);" />
+	 
+	 <% if (post.thumbnail.caption) { %>
+		<div class="post-thumbnail-caption"><%= post.thumbnail.caption %></div>
+	 <% } %>
+
+	   <% } %>
+	   
+	<div id="single-content" class="single-content">
+	  <%= post.content %>
+	</div>
+	
+	<div id="app-footer" class="app-footer has-ripple-feedback ripple-small">
+		<div class="footer-content">
+			<a href="#component-analitica" id="home-footer-button1"></a>
+		</div>
+		<div class="footer-content">
+			<a href="#component-humor-social" id="home-footer-button2"></a>
+		</div>
+		<div class="footer-content">
+			<a href="#component-inteligencia" id="home-footer-button3"></a>
+		</div>
+		<div class="footer-content">
+			<a href="#component-vinculacion" id="home-footer-button4"></a>
+		</div>
+	</div>
+</div>

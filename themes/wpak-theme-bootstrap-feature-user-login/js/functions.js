@@ -270,6 +270,7 @@ define( [ 'jquery',
     // Selector caching
     var $slideUpPanel = $('#slideup-panel'); // Slide up panel model
     var $appCanvas = $('#app-canvas'); // App canvas element
+	var $appCanvas = $('#app-footer'); // App canvas element
         
     // Animated spinner
     // @todo: rename spinnner -> $spinner
@@ -796,7 +797,18 @@ define( [ 'jquery',
 		
 		$("#app-footer").velocity({
 			left: "0",
-		});
+		}, {
+            duration: 300,
+            complete: function() {
+
+                $("#menu-items").css("display","none");
+
+                // We have tapped a menu item, let's open the corresponding screen
+                if (action==1) {
+                    App.navigate( menuItem.attr("href") );
+                }
+            }
+        });
 	}
 
     // @desc Open or close off-canvas menu (based on isMenuOpen variable)

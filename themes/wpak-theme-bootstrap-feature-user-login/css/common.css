@@ -119,7 +119,7 @@ h1 span,h2 span,h3 span,h4 span,h5 span{
 	width: 100%;
     background-color: #fff;
     -webkit-overflow-scrolling:touch; /* Enables inertial scrolling */
-	margin-bottom: 50px;
+	padding-bottom: 50px;
 }
 
 /* When in slideup panel, no need to reserve place for app bar */

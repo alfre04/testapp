@@ -215,7 +215,8 @@
     width: 50%;
     margin: 0 auto;
     margin-top: 10px;
-    border: 1px solid #b64e4a;
+    border-top: 1px solid #b64e4a;
+    display: block;
 }
 
 .single-template .post-thumbnail {

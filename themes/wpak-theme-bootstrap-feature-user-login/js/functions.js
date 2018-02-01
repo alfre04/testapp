@@ -270,7 +270,6 @@ define( [ 'jquery',
     // Selector caching
     var $slideUpPanel = $('#slideup-panel'); // Slide up panel model
     var $appCanvas = $('#app-canvas'); // App canvas element
-	var $appCanvas = $('#app-footer'); // App canvas element
         
     // Animated spinner
     // @todo: rename spinnner -> $spinner

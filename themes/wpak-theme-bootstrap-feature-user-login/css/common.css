@@ -382,14 +382,15 @@ h1 span,h2 span,h3 span,h4 span,h5 span{
 #app-header h1,
 #panel-header h1{
 	background-image: url(../img/logo.svg);
-    height: 60px;
-    width: 60px;
+    height: auto;
+    width: 220px;
     position: relative;
     background-repeat: no-repeat;
-    background-size: 45px auto;
+    background-size: 220px auto;
     color: transparent !important;
     margin: 0 auto;
     background-position: center;
+    margin-top: 5px;
 }
 
 /*FOOTER*/

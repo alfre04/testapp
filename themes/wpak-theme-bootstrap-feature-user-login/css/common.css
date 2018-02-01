@@ -107,14 +107,14 @@ h1 span,h2 span,h3 span,h4 span,h5 span{
 
 /* Encloses content (auto-added) */
 #slideup-panel-0 .app-screen{
-	margin-bottom: 0;
+	bottom: 0;
 }
 
 .app-screen {
     overflow-y: scroll;
     position: absolute;
     top: 56px;
-    bottom: 0px;
+    bottom: 50px;
     left: 0px;
 	width: 100%;
     background-color: #fff;
@@ -406,7 +406,7 @@ h1 span,h2 span,h3 span,h4 span,h5 span{
 }
 
 #post-feedback{
-	overflow: visible !important;
+	height: auto !important;
 }
 
 .footer-content{
@@ -471,12 +471,14 @@ h1 span,h2 span,h3 span,h4 span,h5 span{
 /*CONTACTO*/
 input,
 textarea{
-	font-size:18px;
-	padding:10px 10px 10px 5px;
-	display:block;
-	width:300px;
-	border:none;
-	border-bottom:1px solid #757575;
+	font-size: 18px;
+    padding: 10px 15px 10px 15px;
+    display: block;
+    width: 100%;
+    border: 1px solid #fff;
+    background: transparent;
+    border-radius: 5px;
+	color: #fff;
 }
 
 /*ICON*/
@@ -516,6 +518,43 @@ textarea{
     margin: 0 auto;
 }
 
+.template-login{
+	background: url(../img/login.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #fff;
+}
+
+#logo-login{
+	background: url(../img/logo-login.svg);
+    width: auto;
+    height: 200px;
+    margin: 0 auto;
+    background-size: auto;
+    margin-top: 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#login-page #single-content{
+	text-align: center;
+}
+
+.form-group{
+	margin-bottom: 20px
+}
+
+#login-page button{
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+    background: #777;
+    color: #fff;
+    border: 1px solid #777;
+    border-radius: 5px;
+    padding: 15px 0;
+    font-size: 16px;
+}
 
 /*
  * Spinner structure and animation

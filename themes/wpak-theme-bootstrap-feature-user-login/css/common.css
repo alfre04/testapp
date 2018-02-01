@@ -521,7 +521,7 @@ textarea{
 .template-login{
 	background: url(../img/login.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     color: #fff;
 }
 

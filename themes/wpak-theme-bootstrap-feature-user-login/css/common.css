@@ -556,6 +556,20 @@ textarea{
     font-size: 16px;
 }
 
+.post-title-category{
+	margin: 25px 10px 25px 10px;
+    color: #b53e45;
+}
+
+.post-title-category .pleca{
+	height: 2px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-top: 1px solid #b64e4a;
+    display: block;
+}
+
 /*
  * Spinner structure and animation
  */

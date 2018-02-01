@@ -1198,5 +1198,53 @@ define( [ 'jquery',
         
     }
 	//FIN TEST
+	
+	
+	//In theme's functions.js for example:
+	//Set our custom template using the 'template' filter:
+	
+	App.filter( 'template', function( template, current_screen ) {
+	
+		//Use the [your-theme]/special-category-template.html template
+		//when rendering 'special-category' screen :
+		if( TemplateTags.isCategory('analitica', current_screen) ) {
+			template = 'analitica'; //Don't need .html here.
+		}
+	
+		return template;
+	} );
+	
+	App.filter( 'template', function( template, current_screen ) {
+	
+		//Use the [your-theme]/special-category-template.html template
+		//when rendering 'special-category' screen :
+		if( TemplateTags.isCategory('humor-social', current_screen) ) {
+			template = 'humor'; //Don't need .html here.
+		}
+	
+		return template;
+	} );
+	
+	App.filter( 'template', function( template, current_screen ) {
+	
+		//Use the [your-theme]/special-category-template.html template
+		//when rendering 'special-category' screen :
+		if( TemplateTags.isCategory('inteligencia', current_screen) ) {
+			template = 'inteligencia'; //Don't need .html here.
+		}
+	
+		return template;
+	} );
+	
+	App.filter( 'template', function( template, current_screen ) {
+	
+		//Use the [your-theme]/special-category-template.html template
+		//when rendering 'special-category' screen :
+		if( TemplateTags.isCategory('vinculacion', current_screen) ) {
+			template = 'vinculacion'; //Don't need .html here.
+		}
+	
+		return template;
+	} );
 
 } );

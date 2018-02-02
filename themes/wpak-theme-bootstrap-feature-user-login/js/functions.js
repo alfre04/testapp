@@ -3,9 +3,9 @@ define( [ 'jquery',
 		  'core/theme-tpl-tags',
 		  'core/modules/storage', 
 		  'theme/js/bootstrap.min',
-		  'theme/js/auth/auth-pages',
-		  'theme/js/auth/simple-login', 
-		  'theme/js/auth/premium-posts',
+		  //'theme/js/auth/auth-pages',
+		  //'theme/js/auth/simple-login', 
+		  //'theme/js/auth/premium-posts',
 		  'theme/js/comments',
 		  
 		  'theme/js/moment.min',
@@ -239,7 +239,7 @@ define( [ 'jquery',
      * App's parameters
      */
     
-    App.setParam( 'go-to-default-route-after-refresh', false ); // Don't automatically show default screen after a refresh
+    App.setParam( 'go-to-default-route-after-refresh', true ); // Don't automatically show default screen after a refresh
     App.setParam( 'custom-screen-rendering', true ); // Don't use default transitions and displays for screens
 
     
@@ -260,8 +260,8 @@ define( [ 'jquery',
     
     
 	// Global variables
-    var isMenuOpen = false; // Stores if the off-canvas menu is currently opened or closed
-    var showRipple = false; // Show ripple effect for the element
+    var isMenuOpen = true; // Stores if the off-canvas menu is currently opened or closed
+    var showRipple = true; // Show ripple effect for the element
     var $slideupPanelClones = []; // Array to store slide up panels' stack
     var $currentContainer; // Current slide up panel
     var $currentPanelContent; // Current slide up panel content container
@@ -1245,6 +1245,66 @@ define( [ 'jquery',
 		}
 	
 		return template;
+	} );
+	
+	//SEARCH
+		/**
+	 * Memorize current search so that it is always available,
+	 * even after changing screen
+	 */
+	var current_search = {
+		search_string: ''
+	};
+	
+	$( '#app-layout' ).on( 'click', '#search-button', function( e ) {
+		e.preventDefault();
+	
+		//Set search params from HTML form:
+		current_search.search_string = $('#search-field').val().trim();
+	
+		//Get updated data from server for the current component:
+		App.refreshComponent({
+			success: function( answer, update_results ) {
+				//Server answered with a filtered list of posts. 
+				//Reload current screen to see the result:
+				App.reloadCurrentScreen();
+			},
+			error: function( error ) {
+				//Maybe do something if filtering went wrong.
+				//Note that "No network" error events are triggered automatically by core
+			}
+		});
+	} );
+	
+	/**
+	* Add our search params to web services that retrieve our post list.
+	* Applies to "Live Query" web service (that retrieves filtered component's post list)
+	* and to "Get More Posts" web service (so that search filters apply to pagination too).
+	*/
+	App.filter( 'web-service-params', function( web_service_params ) {
+   
+	   //If the user provided non empty search params:
+	   if( current_search.search_string !== '' ) {
+		   //Add search params to the data sent to web service:
+		   web_service_params.my_search_filters = current_search;
+		   //Those params will be retrieved with WpakWebServiceContext::getClientAppParam( 'my_search_filters' )
+		   //on server side.
+	   }
+   
+	   return web_service_params;
+	} );
+   
+	/**
+	* Add 
+	* - current search params to the archive template, so that they're available in archive.html.
+	*/
+	App.filter( 'template-args', function( template_args, view_type, view_template ) {
+   
+	   if ( view_type === 'archive' ) {
+		   template_args.current_search = current_search;
+	   }
+   
+	   return template_args;
 	} );
 
 } );

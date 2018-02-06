@@ -20,16 +20,9 @@
 	<preference name="permissions" value="none"/>
 
 	<preference name="disallowOverscroll" value="true" />
-	<preference name="webviewbounce" value="true" />
-    
-	<!-- You can comment out features you aren't using -->
-	<gap:plugin name="cordova-plugin-statusbar" source="npm" spec="2.1.3" />
-	<preference name="StatusBarOverlaysWebView" value="true" />
-	<preference name="StatusBarBackgroundColor" value="#D50000" />
-	<preference name="StatusBarStyle" value="lightcontent" />
-	<preference name="StatusBarDefaultScrollToTop" value="false" />
-    
-    <!-- PhoneGap plugin declaration -->
+	<preference name="webviewbounce" value="false" />
+
+	<!-- PhoneGap plugin declaration -->
 	<plugin name="cordova-plugin-inappbrowser" source="npm" />
 	<plugin name="cordova-plugin-network-information" source="npm" />
 	<plugin name="cordova-plugin-whitelist" source="npm" />
@@ -43,13 +36,12 @@
 	<access origin="*" />
 	<allow-intent href="*" />
 	<allow-navigation href="*" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
 	<!-- SplashScreen configuration -->
 	<preference name="SplashScreen" value="splash" />
 	<preference name="SplashScreenDelay" value="10000" />
-	<preference name="FadeSplashScreenDuration" value="600" />
-	<preference name="ShowSplashScreenSpinner" value="true" />
+	<preference name="FadeSplashScreenDuration" value="300" />
+	<preference name="ShowSplashScreenSpinner" value="false" />
 
 	<!-- Icons and Splashscreens declaration -->
 

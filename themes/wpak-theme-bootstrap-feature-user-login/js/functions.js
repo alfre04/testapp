@@ -51,7 +51,7 @@ define( [ 'jquery',
 		Storage.clear( 'scroll-pos' );
 		$refresh_button.removeClass( 'refreshing' );
 		if ( result.ok ) {
-			$( '#feedback' ).removeClass( 'error' ).html( 'Content updated successfully :)' ).slideDown();
+			$( '#feedback' ).removeClass( 'error' ).html( 'Contenido actualizado con éxito :)' ).slideDown();
 		} else {
 			$( '#feedback' ).addClass( 'error' ).html( result.message ).slideDown();
 		}
@@ -517,7 +517,7 @@ define( [ 'jquery',
          * @todo messages should be centralized to ease translations
          */
 		if ( result.ok ) {
-			showMessage("Content updated successfully");
+			showMessage("Contenido actualizado con éxito");
 		}else{
 			showMessage(result.message);
 		}

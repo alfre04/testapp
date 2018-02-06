@@ -269,10 +269,17 @@
 	margin: 20px 0px 10px 0px;
 }
 
+#search-form{
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+}
+
 #search-form input{
     border-bottom: 1px solid #b53e45;
     border-radius: 0;
     color: #4c4c4c;
+    width: 90%;
 }
 
 #search-form button {
@@ -288,5 +295,8 @@
     background-position: center;
     background-size: 20px;
     background-repeat: no-repeat;
+}
 
+iframe{
+    width: 100%;
 }

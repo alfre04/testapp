@@ -13,9 +13,9 @@ define( function ( require ) {
 		gmt_offset : -6,
 		debug_mode : 'off',
 		auth_key : 'put your unique phrase here',
-		options : {"refresh_interval":0},
+		options : {"refresh_interval":0,"pushwoosh":{"pwid":"442BA-1D782","googleid":"557553698794"}},
 		theme_settings : [],
-		addons : []
+		addons : [{"name":"Pushwoosh for WP-AppKit","slug":"wpak-addon-pushwoosh","url":"http:\/\/warroom2018.com\/wp-content\/plugins\/wpak-addon-pushwoosh","js_files":[{"file":"js\/wpak-pushwoosh.js","type":"module","position":""},{"file":"js\/wpak-pushwoosh-app.js","type":"init","position":"before"}],"css_files":[],"html_files":[],"template_files":[],"app_data":null}]
 	};
 
 });

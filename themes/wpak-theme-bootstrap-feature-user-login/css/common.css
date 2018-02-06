@@ -414,59 +414,33 @@ h1 span,h2 span,h3 span,h4 span,h5 span{
 	width: 25%;
 }
 
-.footer-content #home-footer-button1{
+.footer-content .footer-button{
 	top: 0px;
     left: 0px;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(../img/icon.svg);
-    background-size: 40px 40px;
+	background-size: 40px 40px;
     width: 50px;
     height: 50px;
     display: block;
     margin: 0 auto;
+}
+
+.footer-content #home-footer-button1{
+    background-image: url(../img/icon.svg);
 }
 
 .footer-content #home-footer-button2{
-	top: 0px;
-    left: 0px;
-    background-repeat: no-repeat;
-    background-position: center;
     background-image: url(../img/icon-2.png);
-    background-size: 40px 40px;
-    width: 50px;
-    height: 50px;
-    display: block;
-    margin: 0 auto;
 }
 
 .footer-content #home-footer-button3{
-	top: 0px;
-    left: 0px;
-    background-repeat: no-repeat;
-    background-position: center;
     background-image: url(../img/icon-3.svg);
-    background-size: 40px 40px;
-    width: 50px;
-    height: 50px;
-    display: block;
-    margin: 0 auto;
 }
 
 .footer-content #home-footer-button4{
-	top: 0px;
-    left: 0px;
-    background-repeat: no-repeat;
-    background-position: center;
     background-image: url(../img/icon-4.svg);
-    background-size: 40px 40px;
-    width: 50px;
-    height: 50px;
-    display: block;
-    margin: 0 auto;
 }
-
-
 
 /*CONTACTO*/
 input,

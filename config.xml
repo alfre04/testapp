@@ -31,6 +31,13 @@
 	<plugin name="cordova-plugin-statusbar" source="npm" />
 	<plugin name="cordova-plugin-crosswalk-webview" spec="2.3.0" source="npm" />
 	<plugin name="cordova-build-architecture" spec="https://github.com/MBuchalik/cordova-build-architecture.git#v1.0.1" source="git" />
+    
+    <!-- You can comment out features you aren't using -->
+	<gap:plugin name="cordova-plugin-statusbar" source="npm" spec="2.1.3" />
+	<preference name="StatusBarOverlaysWebView" value="true" />
+	<preference name="StatusBarBackgroundColor" value="#D50000" />
+	<preference name="StatusBarStyle" value="lightcontent" />
+	<preference name="StatusBarDefaultScrollToTop" value="false" />
 
 	<!-- Whitelist policy  -->
 	<access origin="*" />
@@ -40,8 +47,8 @@
 	<!-- SplashScreen configuration -->
 	<preference name="SplashScreen" value="splash" />
 	<preference name="SplashScreenDelay" value="10000" />
-	<preference name="FadeSplashScreenDuration" value="300" />
-	<preference name="ShowSplashScreenSpinner" value="false" />
+	<preference name="FadeSplashScreenDuration" value="600" />
+	<preference name="ShowSplashScreenSpinner" value="true" />
 
 	<!-- Icons and Splashscreens declaration -->
 

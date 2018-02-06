@@ -31,7 +31,6 @@
 	<plugin name="cordova-plugin-statusbar" source="npm" />
 	<plugin name="cordova-plugin-crosswalk-webview" spec="2.3.0" source="npm" />
 	<plugin name="cordova-build-architecture" spec="https://github.com/MBuchalik/cordova-build-architecture.git#v1.0.1" source="git" />
-    <plugin name="com.cmackay.plugins.googleanalytics" source="npm" />
     
     <!-- You can comment out features you aren't using -->
 	<gap:plugin name="cordova-plugin-statusbar" source="npm" spec="2.1.3" />

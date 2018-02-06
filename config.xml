@@ -22,12 +22,12 @@
 	<preference name="disallowOverscroll" value="true" />
 	<preference name="webviewbounce" value="true" />
     
-    <!-- You can comment out features you aren't using -->
-    <gap:plugin name="cordova-plugin-statusbar" source="npm" spec="2.1.3" />
-    <preference name="StatusBarOverlaysWebView" value="true" />
-    <preference name="StatusBarBackgroundColor" value="#D50000" />
-    <preference name="StatusBarStyle" value="lightcontent" />
-    <preference name="StatusBarDefaultScrollToTop" value="false" />
+	<!-- You can comment out features you aren't using -->
+	<gap:plugin name="cordova-plugin-statusbar" source="npm" spec="2.1.3" />
+	<preference name="StatusBarOverlaysWebView" value="true" />
+	<preference name="StatusBarBackgroundColor" value="#D50000" />
+	<preference name="StatusBarStyle" value="lightcontent" />
+	<preference name="StatusBarDefaultScrollToTop" value="false" />
     
     <!-- PhoneGap plugin declaration -->
 	<plugin name="cordova-plugin-inappbrowser" source="npm" />
@@ -38,11 +38,6 @@
 	<plugin name="cordova-plugin-statusbar" source="npm" />
 	<plugin name="cordova-plugin-crosswalk-webview" spec="2.3.0" source="npm" />
 	<plugin name="cordova-build-architecture" spec="https://github.com/MBuchalik/cordova-build-architecture.git#v1.0.1" source="git" />
-    
-    <!-- for Android (you will find one in res/xml) -->
-    <feature name="SocialSharing">
-      <param name="android-package" value="nl.xservices.plugins.SocialSharing" />
-    </feature>
 
 	<!-- Whitelist policy  -->
 	<access origin="*" />

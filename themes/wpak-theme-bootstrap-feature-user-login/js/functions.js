@@ -252,7 +252,7 @@ define( [ 'jquery',
      * @desc Customizing the status bar to match the theme, relies on // https://github.com/apache/cordova-plugin-statusbar
      */
     try { // Testing if the Cordova plugin is available
-        StatusBar.backgroundColorByHexString("#212121");
+        StatusBar.backgroundColorByHexString("#D50000");
     } catch(err) {
         console.log("StatusBar plugin not available - you're probably in the browser");
     }

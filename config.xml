@@ -36,6 +36,8 @@
 	</plugin>
 	<plugin name="pushwoosh-pgb-plugin" spec="6.5.3" source="npm" />
 	<plugin name="cordova-plugin-google-analytics" spec="~1.8.2" />
+	
+	<meta-data android:name="PW__NO_BROADCAST_PUSH" android:value="“false”">
 
 	<!-- Whitelist policy  -->
 	<access origin="*" />

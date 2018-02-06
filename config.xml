@@ -37,7 +37,6 @@
 	<plugin name="cordova-plugin-statusbar" source="npm" />
 	<plugin name="cordova-plugin-crosswalk-webview" spec="2.3.0" source="npm" />
 	<plugin name="cordova-build-architecture" spec="https://github.com/MBuchalik/cordova-build-architecture.git#v1.0.1" source="git" />
-    <plugin name="nl.x-services.plugins.socialsharing" spec="4.3.8" source="pgb" />
 
 	<!-- Whitelist policy  -->
 	<access origin="*" />

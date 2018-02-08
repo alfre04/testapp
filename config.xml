@@ -2,7 +2,7 @@
 <widget xmlns       = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "com.llorente.wr2018"
-        versionCode = "6"
+        versionCode = "4"
         version     = "1.5" >
 
 	<name>WR2018</name>

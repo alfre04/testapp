@@ -2,8 +2,8 @@
 <widget xmlns       = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "com.llorente.wr2018"
-        versionCode = "63"
-        version     = "1.5.0" >
+        versionCode = "64"
+        version     = "1.5.1" >
 
 	<name>WR2018</name>
 
@@ -18,6 +18,8 @@
 	<preference name="xwalkMultipleApk" value="true" />
 	<preference name="android-build-tool" value="gradle" />
 	<preference name="permissions" value="none"/>
+	<preference name="android-minSdkVersion" value="16" />
+
 
 	<preference name="disallowOverscroll" value="true" />
 	<preference name="webviewbounce" value="false" />

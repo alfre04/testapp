@@ -56,6 +56,7 @@
 	<icon src="icons/icon-wp-appkit-xhdpi.png" gap:platform="android" gap:qualifier="xhdpi" />
 	<icon src="icons/icon-wp-appkit-xxhdpi.png" gap:platform="android" gap:qualifier="xxhdpi" />
 	<icon src="icons/icon-wp-appkit-xxxhdpi.png" gap:platform="android" gap:qualifier="xxxhdpi" />
+  
 	
 	<gap:splash src="splash.9.png" gap:platform="android" />
 	<gap:splash src="splashscreens/splashscreen-wp-appkit-ldpi.9.png" gap:platform="android" gap:qualifier="ldpi" />

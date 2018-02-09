@@ -56,6 +56,14 @@
 	<icon src="icons/icon-wp-appkit-xhdpi.png" gap:platform="android" gap:qualifier="xhdpi" />
 	<icon src="icons/icon-wp-appkit-xxhdpi.png" gap:platform="android" gap:qualifier="xxhdpi" />
 	<icon src="icons/icon-wp-appkit-xxxhdpi.png" gap:platform="android" gap:qualifier="xxxhdpi" />
+	
+	<!-- Add to your existing android platform sction -->
+
+    <resource-file src="locales/android/drawable-mdpi/pw_notification.png" target="res/drawable-mdpi/pw_notification.png" />
+    <resource-file src="locales/android/drawable-hdpi/pw_notification.png" target="res/drawable-hdpi/pw_notification.png" />
+    <resource-file src="locales/android/drawable-xhdpi/pw_notification.png" target="res/drawable-xhdpi/pw_notification.png" />
+    <resource-file src="locales/android/drawable-xxhdpi/pw_notification.png" target="res/drawable-xxhdpi/pw_notification.png" />
+    <resource-file src="locales/android/drawable-xxxhdpi/pw_notification.png" target="res/drawable-xxxhdpi/pw_notification.png" />
   
 	
 	<gap:splash src="splash.9.png" gap:platform="android" />

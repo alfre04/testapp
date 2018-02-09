@@ -1306,7 +1306,5 @@ define( [ 'jquery',
    
 	   return template_args;
 	} );
-	
-	window.ga.startTrackerWithId('UA-113623932-1', 30);
 
 } );

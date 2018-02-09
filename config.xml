@@ -59,11 +59,11 @@
 	
 	<!-- Add to your existing android platform sction -->
 
-    <resource-file src="locales/android/drawable-mdpi/pw_notification.png" target="res/drawable-mdpi/pw_notification.png" />
-    <resource-file src="locales/android/drawable-hdpi/pw_notification.png" target="res/drawable-hdpi/pw_notification.png" />
-    <resource-file src="locales/android/drawable-xhdpi/pw_notification.png" target="res/drawable-xhdpi/pw_notification.png" />
-    <resource-file src="locales/android/drawable-xxhdpi/pw_notification.png" target="res/drawable-xxhdpi/pw_notification.png" />
-    <resource-file src="locales/android/drawable-xxxhdpi/pw_notification.png" target="res/drawable-xxxhdpi/pw_notification.png" />
+    <resource-file src="drawable-mdpi/pw_notification.png" target="res/drawable-mdpi/pw_notification.png" />
+    <resource-file src="drawable-hdpi/pw_notification.png" target="res/drawable-hdpi/pw_notification.png" />
+    <resource-file src="drawable-xhdpi/pw_notification.png" target="res/drawable-xhdpi/pw_notification.png" />
+    <resource-file src="drawable-xxhdpi/pw_notification.png" target="res/drawable-xxhdpi/pw_notification.png" />
+    <resource-file src="drawable-xxxhdpi/pw_notification.png" target="res/drawable-xxxhdpi/pw_notification.png" />
   
 	
 	<gap:splash src="splash.9.png" gap:platform="android" />

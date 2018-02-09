@@ -59,13 +59,19 @@
 	<icon src="icons/icon-wp-appkit-xxhdpi.png" gap:platform="android" gap:qualifier="xxhdpi" />
 	<icon src="icons/icon-wp-appkit-xxxhdpi.png" gap:platform="android" gap:qualifier="xxxhdpi" />
 	
-	<!-- Add to your existing android platform sction -->
-
-    <resource-file src="drawable-mdpi/pw_notification.png" target="res/drawable-mdpi/pw_notification.png" />
-    <resource-file src="drawable-hdpi/pw_notification.png" target="res/drawable-hdpi/pw_notification.png" />
-    <resource-file src="drawable-xhdpi/pw_notification.png" target="res/drawable-xhdpi/pw_notification.png" />
-    <resource-file src="drawable-xxhdpi/pw_notification.png" target="res/drawable-xxhdpi/pw_notification.png" />
-    <resource-file src="drawable-xxxhdpi/pw_notification.png" target="res/drawable-xxxhdpi/pw_notification.png" />
+	<service
+    android:name=".FirebaseInstanceIdRouterService">
+    <intent-filter>
+        <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+    </intent-filter>
+	</service>
+		   
+	<service
+		android:name=".FirebaseMessagingRouterService">
+		<intent-filter>
+			<action android:name="com.google.firebase.MESSAGING_EVENT"/>
+		</intent-filter>
+	</service>
   
 	
 	<gap:splash src="splash.9.png" gap:platform="android" />

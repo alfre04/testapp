@@ -2,7 +2,7 @@
 <widget xmlns       = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "com.llorente.wr2018"
-        versionCode = "4"
+        versionCode = "65"
         version     = "1.5.1" >
 
 	<name>WR2018</name>
@@ -18,7 +18,6 @@
 	<preference name="xwalkMultipleApk" value="true" />
 	<preference name="android-build-tool" value="gradle" />
 	<preference name="permissions" value="none"/>
-	<preference name="android-minSdkVersion" value="16" />
 
 	<preference name="disallowOverscroll" value="true" />
 	<preference name="webviewbounce" value="false" />
@@ -36,7 +35,6 @@
 		<param name="URL_SCHEME" value="mygreatapp" />
 	</plugin>
 	<plugin name="pushwoosh-pgb-plugin" spec="6.5.3" source="npm" />
-	<plugin name="cordova-plugin-google-analytics" spec="~1.8.2" />
 
 	<!-- Whitelist policy  -->
 	<access origin="*" />
@@ -58,9 +56,6 @@
 	<icon src="icons/icon-wp-appkit-xhdpi.png" gap:platform="android" gap:qualifier="xhdpi" />
 	<icon src="icons/icon-wp-appkit-xxhdpi.png" gap:platform="android" gap:qualifier="xxhdpi" />
 	<icon src="icons/icon-wp-appkit-xxxhdpi.png" gap:platform="android" gap:qualifier="xxxhdpi" />
-	
-	<preference name="android-maxSdkVersion" value="20" />
-	<preference name="android-targetSdkVersion" value="20" />
 	
 	<gap:splash src="splash.9.png" gap:platform="android" />
 	<gap:splash src="splashscreens/splashscreen-wp-appkit-ldpi.9.png" gap:platform="android" gap:qualifier="ldpi" />

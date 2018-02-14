@@ -111,13 +111,13 @@ define( [ 'jquery', 'core/theme-app', 'core/modules/authentication' ], function(
 			//Intercept key login error events :
 			switch ( event_data.event ) {
 				case 'auth:empty-user':
-					message = "User login is empty";
+					message = "Los campos no pueden quedar vacios";
 					break;
 				case 'auth:wrong-user':
-					message = "User not found";
+					message = "Usuario no encontrado";
 					break;
 				case 'auth:wrong-pass':
-					message = "User name and password do not match";
+					message = "Nombre de usuario y contraseña no coinciden";
 					break;
 				default:
 					message = "User authentication failed :(";

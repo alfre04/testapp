@@ -277,6 +277,7 @@ h1 span,h2 span,h3 span,h4 span,h5 span{
     margin: 0 auto;
     right: 0;
     border-radius: 40px 40px 40px 40px;
+	text-align: center;
 }
 
 .app-message-bar .spinner {
@@ -500,8 +501,7 @@ textarea{
 
 .template-login{
 	background-image: url(../img/login.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+	background-size: cover;
 	-webkit-background-size: cover;
 	-webkit-overflow-scrolling: cover;
 	-moz-background-size: cover;
@@ -510,7 +510,7 @@ textarea{
 }
 
 #logo-login{
-	background: url(../img/logo-login.svg);
+	background-image: url(../img/logo-login.svg);
     width: auto;
     height: 200px;
     margin: 0 auto;

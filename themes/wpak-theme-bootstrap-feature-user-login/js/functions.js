@@ -611,6 +611,7 @@ define( [ 'jquery',
 			
 			$("#app-header").css("display","block");
 			$("#app-menu").css("display","block");
+			$( "#app-content-wrapper" ).removeClass( "login-page" );
 
 		}
 

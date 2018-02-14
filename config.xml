@@ -44,10 +44,6 @@
 	<access origin="*" />
 	<allow-intent href="*" />
 	<allow-navigation href="*" />
-	
-	<access origin="//" />
-	<allow-intent href="//" />
-	<allow-navigation href="//" />
 
 	<!-- SplashScreen configuration -->
 	<preference name="SplashScreen" value="splash" />

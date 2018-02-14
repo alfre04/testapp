@@ -28,6 +28,8 @@ define( [ 'core/theme-app', 'core/modules/authentication' ], function( App, Auth
 		if ( queried_screen.item_id != 'login-page' ) {
 			//Memorize asked screen to redirect to it after login.
 			asked_fragment = '';
+			$("#app-header").css("display","none");
+			$("#app-menu").css("display","none");
 		}
 		
 		if ( !user && queried_screen.screen_type != 'list' 

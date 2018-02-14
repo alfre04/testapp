@@ -3,9 +3,9 @@ define( [ 'jquery',
 		  'core/theme-tpl-tags',
 		  'core/modules/storage', 
 		  'theme/js/bootstrap.min',
-		  //'theme/js/auth/auth-pages',
-		  //'theme/js/auth/simple-login', 
-		  //'theme/js/auth/premium-posts',
+		  'theme/js/auth/auth-pages',
+		  'theme/js/auth/simple-login', 
+		  'theme/js/auth/premium-posts',
 		  'theme/js/comments',
 		  
 		  'theme/js/moment.min',
@@ -600,7 +600,7 @@ define( [ 'jquery',
         }
                         
         // Actions shared by single and page
-        if (current_screen.screen_type=="single" || current_screen.screen_type=="page") {
+        if (current_screen.screen_type=="single" || current_screen.screen_type=="page" || current_screen.screen_type=="list") {
 
             // Make any necessary modification to post/page content
             prepareContent( currentScreenObject );
@@ -608,6 +608,9 @@ define( [ 'jquery',
             // Display videos and make them responsive
             // We defer video loading to keep transitions smooth
             loadAndFormatVideosFor( currentScreenObject );
+			
+			$("#app-header").css("display","block");
+			$("#app-menu").css("display","block");
 
 		}
 

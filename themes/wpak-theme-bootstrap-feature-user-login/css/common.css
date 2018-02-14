@@ -502,10 +502,10 @@ textarea{
 	background-image: url(../img/login.png);
     background-repeat: no-repeat;
     background-size: cover;
-	-webkit-background-size: auto;
-	-webkit-overflow-scrolling: auto;
-	-moz-background-size: auto;
-	-o-background-size: auto;
+	-webkit-background-size: cover;
+	-webkit-overflow-scrolling: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
     color: #fff;
 }
 

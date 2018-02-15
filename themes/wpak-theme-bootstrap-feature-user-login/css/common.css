@@ -502,10 +502,10 @@ textarea{
 .template-login{
 	background-image: url(../img/login.png);
 	background-size: cover;
-	-webkit-background-size: cover;
-	-webkit-overflow-scrolling: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
+	-webkit-background-size: auto;
+	-webkit-overflow-scrolling: auto;
+	-moz-background-size: auto;
+	-o-background-size: auto;
     color: #fff;
 }
 
@@ -552,6 +552,27 @@ textarea{
     margin-top: 10px;
     border-top: 1px solid #b64e4a;
     display: block;
+}
+
+/*USER ID*/
+.clearfix-login{
+	width: 78%;
+    z-index: 1;
+    position: absolute;
+    top: 90%;
+    left: 30px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.clearfix-login a{
+	color: #FFFFFF;
+    text-decoration: none;
+}
+
+#logout{
+	color: #FFFFFF;
+	font-size: 18px;
 }
 
 /*

@@ -15,7 +15,7 @@ define( [ 'jquery', 'core/theme-app', 'core/modules/authentication' ], function(
 	 * Define HTML for our login form wrapper, insert it into DOM just after the feedback <div>,
 	 * then memorize a jQuery reference to it.
 	 */
-	$( '<div class="clearfix"><div class="clearfix pull-right" id="user-info"></div></div>' ).insertAfter( '#feedback' );
+	$( '<div class="clearfix-login"><div class="clearfix pull-right" id="user-info"></div></div>' ).insertAfter( '#app-menu' );
 	var $user_info = $('#user-info');
 
 	/**
@@ -28,7 +28,7 @@ define( [ 'jquery', 'core/theme-app', 'core/modules/authentication' ], function(
 		
 		if ( current_user ) { 
 			//User logged in : display user info and logout button :
-			$user_info.html( 'Logged in as <a href="#user-page">'+ current_user.login +'</a> <button type="button" class="btn btn-danger" id="logout">Log out</button>');
+			$user_info.html( '<a href="#user-page">'+ current_user.login +'</a> <br /><a class="btn btn-danger" id="logout">cerrar sesión</a>');
 		} else { 
 			//User not logged in : display the login button :
 			$user_info.html( 'No user connected <button type="button" class="btn btn-info" id="login">Log in</button>' );

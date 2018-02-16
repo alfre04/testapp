@@ -505,6 +505,7 @@ textarea{
 	background-size: cover;
 	background-attachment: fixed;
     color: #fff;
+	height: 100%;
 }
 
 #logo-login{

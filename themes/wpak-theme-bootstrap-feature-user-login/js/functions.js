@@ -397,11 +397,6 @@ define( [ 'jquery',
 		}
 
 	});
-    
-//    if ( queried_screen.item_id('login-page')) {
-//			//Memorize asked screen to redirect to it afte
-//            
-//    }
 
     // @desc About to leave the current screen
     // @param {object} current_screen - Screen types: list|single|page|comments

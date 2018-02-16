@@ -457,6 +457,17 @@ textarea{
 	color: #fff;
 }
 
+input[type="checkbox"]{
+	width: auto;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.form-group a{
+	color: #FFFFFF !important;
+    display: inline-block;
+}
+
 /*ICON*/
 #home-footer-button{
 	top: 0px;
@@ -535,9 +546,9 @@ textarea{
 }*/
 
 #logo-login{
-	background-image: url(../img/logo-login.svg);
-    width: auto;
-    height: 200px;
+	background-image: url(../img/logo-login-page.svg);
+    width: 90%;
+    height: 80px;
     margin: 0 auto;
     background-size: auto;
     background-repeat: no-repeat;

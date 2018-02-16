@@ -30,7 +30,6 @@ define( [ 'core/theme-app', 'core/modules/authentication' ], function( App, Auth
 			asked_fragment = '';
 			$("#app-header").css("display","none");
 			$("#app-menu").css("display","none");
-			$( "#app-content-wrapper" ).addClass( "login-page" );
 		}
 		
 		if ( !user && queried_screen.screen_type != 'list' 
@@ -40,6 +39,8 @@ define( [ 'core/theme-app', 'core/modules/authentication' ], function( App, Auth
 			asked_fragment = queried_screen.fragment;
 			App.navigate( 'login-page' );
 			redirect = true;
+			
+			$("#app-content-wrapper").addClass("login-page");
 				
 		} else if ( user && queried_screen.item_id == 'login-page' ) {
 			

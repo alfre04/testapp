@@ -106,14 +106,6 @@ h1 span,h2 span,h3 span,h4 span,h5 span{
     z-index: 5; /* z-index relative to #app-canvas */
 }
 
-#app-content-wrapper.login-page{
-	background-image: url(../img/login.png);
-	background-size: cover;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-position: center center;
-}
-
 /* Encloses content (auto-added) */
 #slideup-panel-0 .app-screen{
 	bottom: 0;
@@ -506,9 +498,10 @@ textarea{
 	top: 0;
     bottom: 0;
     padding: 0;
+	position: relative;
 }
 
-/*.template-login{
+.template-login{
 	background-image: url(../img/login.png);
 	background-size: cover;
 	background-attachment: fixed;
@@ -516,14 +509,12 @@ textarea{
     -moz-background-size: cover;
     -o-background-size: cover;
     color: #fff;
-	height: 100%;
-	
-	min-height: 100%;
+
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center center;
 }
-*/
+
 #logo-login{
 	background-image: url(../img/logo-login.svg);
     width: auto;

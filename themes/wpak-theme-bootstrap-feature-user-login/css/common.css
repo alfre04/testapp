@@ -494,14 +494,7 @@ textarea{
     margin: 0 auto;
 }
 
-#app-content-wrapper.login-page .app-screen{
-	top: 0;
-    bottom: 0;
-    padding: 0;
-	position: relative;
-}
-
-.template-login{
+#app-content-wrapper.login-page{
 	background-image: url(../img/login.png);
 	background-size: cover;
 	background-attachment: fixed;
@@ -514,6 +507,27 @@ textarea{
 	background-repeat: no-repeat;
 	background-position: center center;
 }
+
+#app-content-wrapper.login-page .app-screen{
+	top: 0;
+    bottom: 0;
+    padding: 0;
+	position: relative;
+}
+
+/*.template-login{
+	background-image: url(../img/login.png);
+	background-size: cover;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    color: #fff;
+
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+}*/
 
 #logo-login{
 	background-image: url(../img/logo-login.svg);

@@ -104,6 +104,7 @@ h1 span,h2 span,h3 span,h4 span,h5 span{
     height: 100%;
     width: 100%;
     z-index: 5; /* z-index relative to #app-canvas */
+	background-image: url(../img/login.png);
 }
 
 /* Encloses content (auto-added) */
@@ -500,7 +501,7 @@ textarea{
     padding: 0;
 }
 
-.template-login{
+/*.template-login{
 	background-image: url(../img/login.png);
 	background-size: cover;
 	background-attachment: fixed;
@@ -515,7 +516,7 @@ textarea{
 	background-repeat: no-repeat;
 	background-position: center center;
 }
-
+*/
 #logo-login{
 	background-image: url(../img/logo-login.svg);
     width: auto;

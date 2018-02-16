@@ -86,7 +86,3 @@ define( [ 'jquery', 'core/theme-app', 'core/modules/authentication' ], function(
 	} );
 
 } );
-
-
-
-

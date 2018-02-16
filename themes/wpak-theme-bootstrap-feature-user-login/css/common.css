@@ -503,10 +503,7 @@ textarea{
 .template-login{
 	background-image: url(../img/login.png);
 	background-size: cover;
-	-webkit-background-size: auto;
-	-webkit-overflow-scrolling: auto;
-	-moz-background-size: auto;
-	-o-background-size: auto;
+	background-attachment: fixed;
     color: #fff;
 }
 

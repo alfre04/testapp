@@ -511,7 +511,7 @@ textarea{
 .login-page .app-screen,
 .login-page .template-login{
 	background: transparent;
-    overflow: auto;
+    overflow: hidden;
 }
 
 /*#app-content-wrapper.login-page .app-screen{

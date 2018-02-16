@@ -382,6 +382,21 @@ h1 span,h2 span,h3 span,h4 span,h5 span{
     height: 45px;
 }
 
+.user{
+	display: none;
+}
+
+.btn-danger{
+	background-image: url(../img/logout.svg);
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    height: 45px;
+    display: block;
+    line-height: 50px;
+    background-position: left center;
+    padding: 0px 20px 0 50px;
+}
+
 #app-menu .ripple-drop {
     background-color: #F2F2F2;
 }
@@ -522,8 +537,8 @@ input[type="checkbox"]{
 
 #logo-menu{
 	background-image: url(../img/logo-menu.svg);
-    width: 250px;
-    height: 250px;
+    width: 220px;
+    height: 220px;
     background-repeat: no-repeat;
     background-position: center;
     margin: 0 auto;
@@ -615,11 +630,11 @@ input[type="checkbox"]{
 
 /*USER ID*/
 .clearfix-login{
-	width: 78%;
+	width: 77%;
     z-index: 1;
     position: absolute;
-    top: 90%;
-    left: 30px;
+    top: 88%;
+    left: 20px;
     color: #fff;
     font-size: 18px;
 }

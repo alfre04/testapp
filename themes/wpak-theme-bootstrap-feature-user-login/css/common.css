@@ -104,6 +104,9 @@ h1 span,h2 span,h3 span,h4 span,h5 span{
     height: 100%;
     width: 100%;
     z-index: 5; /* z-index relative to #app-canvas */
+}
+
+#app-content-wrapper.login-page{
 	background-image: url(../img/login.png);
 }
 

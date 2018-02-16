@@ -508,6 +508,11 @@ textarea{
 	background-position: center center;
 }
 
+.login-page .app-screen,
+.login-page .template-login{
+	background: transparent;
+}
+
 /*#app-content-wrapper.login-page .app-screen{
 	top: 0;
     bottom: 0;

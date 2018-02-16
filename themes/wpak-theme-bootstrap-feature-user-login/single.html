@@ -30,7 +30,9 @@
             - <a class="comments" data-post-id="<%= post.id %>" href="#"><% print(post.nb_comments) %>&nbsp;comment<% post.nb_comments > 1 ? print('s') : '' %></a>
     <% } %>
     - <a class="comments" data-post-id="<%= post.id %>" href="#">Comment this post</a>-->
+    
     <div id="single-content" class="single-content">
         <%= post.content %>
     </div>
+
 </div>

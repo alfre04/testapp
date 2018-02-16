@@ -108,6 +108,10 @@ h1 span,h2 span,h3 span,h4 span,h5 span{
 
 #app-content-wrapper.login-page{
 	background-image: url(../img/login.png);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
 }
 
 /* Encloses content (auto-added) */

@@ -6,7 +6,19 @@
 			Por única vez te solicitaremos los<br>
 			datos enviados por E-mail:
 			<br><br>
-			  
+			
+			<script language="javascript">
+				$(document).ready(function() {
+					$("#submit").on("click", function() {
+						var condiciones = $("#aceptar").is(":checked");
+						if (!condiciones) {
+							alert("Debe aceptar las condiciones");
+							event.preventDefault();
+						}
+					});
+				});
+			</script>
+			
 			<form>
 				<div class="form-group">
 					<input type="text" class="form-control" id="user-login" placeholder="E-mail">
@@ -15,10 +27,10 @@
 					<input type="password" class="form-control" id="user-pass" placeholder="Contraseña">
 				</div>
 				<div class="form-group">
-					<input type="checkbox" name="aviso" value="aviso"><a href="http://www.llorenteycuenca.com/mexico/">Acepto Términos y condiciones</a>
+					<input type="checkbox" name="aceptar" id="aceptar"><a href="http://www.llorenteycuenca.com/mexico/">Acepto Términos y condiciones</a>
 				</div>
 				
-				<button type="submit" class="btn btn-info">Iniciar Sesión</button>
+				<button id="submit" type="submit" class="btn btn-info">Iniciar Sesión</button>
 			</form>
 		</div>
 	</div>

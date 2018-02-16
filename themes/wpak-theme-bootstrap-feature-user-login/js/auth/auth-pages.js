@@ -123,7 +123,6 @@ define( [ 'jquery', 'core/theme-app', 'core/modules/authentication' ], function(
 					message = "User authentication failed :(";
 					break;
 			}
-			
 		}
 		
 		return message;

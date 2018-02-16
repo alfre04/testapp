@@ -469,6 +469,24 @@ input[type="checkbox"]{
     border-bottom: 1px solid;
 }
 
+#user-login{
+	background-image: url(../img/envelope.svg);
+	background-repeat: no-repeat;
+    background-size: 28px 28px;
+    background-position: 5px center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#user-pass{
+	background-image: url(../img/locked.svg);
+    background-repeat: no-repeat;
+    background-size: 28px 28px;
+    background-position: 5px center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
 /*ICON*/
 #home-footer-button{
 	top: 0px;

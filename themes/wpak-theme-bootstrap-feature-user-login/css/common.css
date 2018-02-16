@@ -508,12 +508,12 @@ textarea{
 	background-position: center center;
 }
 
-#app-content-wrapper.login-page .app-screen{
+/*#app-content-wrapper.login-page .app-screen{
 	top: 0;
     bottom: 0;
     padding: 0;
 	position: relative;
-}
+}*/
 
 /*.template-login{
 	background-image: url(../img/login.png);

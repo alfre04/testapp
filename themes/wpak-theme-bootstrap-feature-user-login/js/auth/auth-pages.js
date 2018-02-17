@@ -31,6 +31,10 @@ define( [ 'jquery', 'core/theme-app', 'core/modules/authentication' ], function(
 				App.navigate( '#' );
 				redirect = true;
 			}
+			
+			if ( $('#app-header > h1').html() != current_screen.label ) {
+                $('#app-header > h1').html(current_screen.label);
+            }
 		}
 		return redirect;
 	} );

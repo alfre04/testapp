@@ -441,9 +441,9 @@ h1 span,h2 span,h3 span,h4 span,h5 span{
     left: 0px;
     background-repeat: no-repeat;
     background-position: center;
-	background-size: 60px auto;
-    width: 65px;
-    height: 65px;
+	background-size: 70px auto;
+    width: 75px;
+    height: 60px;
     display: block;
     margin: 0 auto;
 }

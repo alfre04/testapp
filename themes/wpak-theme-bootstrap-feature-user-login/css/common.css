@@ -449,7 +449,7 @@ h1 span,h2 span,h3 span,h4 span,h5 span{
 }
 
 .footer-content #home-footer-button1{
-    background-image: url(../img/icon.svg);
+    background-image: url(../img/icon.png);
 }
 
 .footer-content #home-footer-button2{
@@ -458,11 +458,11 @@ h1 span,h2 span,h3 span,h4 span,h5 span{
 }
 
 .footer-content #home-footer-button3{
-    background-image: url(../img/icon-3.svg);
+    background-image: url(../img/icon-3.png);
 }
 
 .footer-content #home-footer-button4{
-    background-image: url(../img/icon-4.svg);
+    background-image: url(../img/icon-4.png);
 }
 
 /*CONTACTO*/

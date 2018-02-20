@@ -49,10 +49,6 @@ define( [ 'jquery', 'core/theme-app', 'core/modules/authentication' ], function(
 					capabilities: current_user.permissions.capabilities
 				};
 			}
-			
-			if ( $('#app-header > h1').html() != current_screen.label ) {
-                $('#app-header > h1').html(current_screen.label);
-            }
 		}
 		return template_args;
 	} );

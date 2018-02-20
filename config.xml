@@ -37,6 +37,7 @@
 	<plugin name="cordova-plugin-customurlscheme" spec="4.2.0" >
 		<param name="URL_SCHEME" value="mygreatapp" />
 	</plugin>
+	<plugin name="cordova-plugin-google-analytics" spec="1.8.3" source="npm" />
 	<plugin name="pushwoosh-pgb-plugin" spec="6.5.3" source="npm" />
 
 	<!-- Whitelist policy  -->

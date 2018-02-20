@@ -25,7 +25,7 @@ define( [ 'jquery', 'core/theme-app', 'core/modules/authentication' ], function(
 	 * redirect to the homepage.
 	 */
 	App.filter( 'redirect', function( redirect, queried_screen ) {
-		if ( queried_screen.item_id == 'user-page' ) {
+		if ( queried_screen.item_id == 'login-page' ) {
 			var user = Auth.getCurrentUser();
 			if ( !user ) {
 				App.navigate( '#' );

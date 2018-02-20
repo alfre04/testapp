@@ -441,9 +441,9 @@ h1 span,h2 span,h3 span,h4 span,h5 span{
     left: 0px;
     background-repeat: no-repeat;
     background-position: center;
-	background-size: 60px 60px;
-    width: 60px;
-    height: 60px;
+	background-size: 60px auto;
+    width: 65px;
+    height: 65px;
     display: block;
     margin: 0 auto;
 }
@@ -454,7 +454,6 @@ h1 span,h2 span,h3 span,h4 span,h5 span{
 
 .footer-content #home-footer-button2{
     background-image: url(../img/icon-2.png);
-	background-size: 55px auto;
 }
 
 .footer-content #home-footer-button3{

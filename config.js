@@ -7,7 +7,7 @@ define( function ( require ) {
 		wp_ws_url : 'http://warroom2018.com/wp-appkit-api/android',
 		wp_url : 'http://warroom2018.com',
 		theme : 'wpak-theme-bootstrap-feature-user-login',
-		version : '1.5.1',
+		version : '2.0.0',
 		app_title : 'WR2018',
 		app_platform : 'android',
 		gmt_offset : -6,

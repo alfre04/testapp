@@ -40,15 +40,7 @@
 	<plugin name="cordova-plugin-google-analytics" spec="1.8.3" source="npm" />
 	<plugin name="pushwoosh-pgb-plugin" spec="6.5.3" source="npm" />
 	
-	<!-- Pushwoosh  -->
 	
-	<action android:name="android.intent.action.VIEW" />
-	<category android:name="android.intent.category.DEFAULT" />
-	<category android:name="android.intent.category.BROWSABLE" />
-
-	<data android:scheme="pw-442BA-1D782" />
-	
-
 	<!-- Whitelist policy  -->
 	<access origin="*" />
 	<allow-intent href="*" />

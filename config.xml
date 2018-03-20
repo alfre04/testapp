@@ -42,13 +42,12 @@
 	
 	<!-- Pushwoosh  -->
 	
-	<intent-filter>
-		<action android:name="android.intent.action.VIEW" />
-		<category android:name="android.intent.category.DEFAULT" />
-		<category android:name="android.intent.category.BROWSABLE" />
-  
-		<data android:scheme="pw-442BA-1D782" />
-	</intent-filter>
+	<action android:name="android.intent.action.VIEW" />
+	<category android:name="android.intent.category.DEFAULT" />
+	<category android:name="android.intent.category.BROWSABLE" />
+
+	<data android:scheme="pw-442BA-1D782" />
+	
 
 	<!-- Whitelist policy  -->
 	<access origin="*" />
